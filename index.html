@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список заданий</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1 class="moving-text">Заметки</h1>
+      <input type="text" id="taskInput" placeholder="Введите новую заметку" />
+      <button id="addTaskButton">Добавить</button>
+      <ul class="task-list" id="taskList"></ul>
+    </div>
+    <div class="modal-overlay" id="modal">
+      <div class="modal-window">
+        <span id="modal-span"></span>
+        <span><button id="close-modal">OK</button></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
